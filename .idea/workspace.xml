@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd9ac438-c0c6-47ec-a107-598079f8f4b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4/dokosql3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/continue.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/break.php" beforeDir="false" afterPath="$PROJECT_DIR$/4/break.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cast.php" beforeDir="false" afterPath="$PROJECT_DIR$/cast.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +26,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cast.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#8#32#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4/continue.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -44,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4/dokosql3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="357">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -62,7 +68,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sample.php" />
-        <option value="$PROJECT_DIR$/cast.php" />
         <option value="$PROJECT_DIR$/4/if1.php" />
         <option value="$PROJECT_DIR$/4/nest.php" />
         <option value="$PROJECT_DIR$/4/practice41.php" />
@@ -70,6 +75,8 @@
         <option value="$PROJECT_DIR$/4/foreach_assoc.php" />
         <option value="$PROJECT_DIR$/4/break.php" />
         <option value="$PROJECT_DIR$/4/dokosql3.php" />
+        <option value="$PROJECT_DIR$/cast.php" />
+        <option value="$PROJECT_DIR$/4/continue.php" />
       </list>
     </option>
   </component>
@@ -134,19 +141,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550970619696</updated>
-      <workItem from="1550970620966" duration="11024000" />
+      <workItem from="1550970620966" duration="13001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11024000" />
+    <option name="totallyTimeSpent" value="13001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1405" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.20058781" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20058781" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
@@ -220,16 +227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cast.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#8#32#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4/break.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -239,8 +236,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4/dokosql3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        <state relative-caret-position="357">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cast.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/continue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
