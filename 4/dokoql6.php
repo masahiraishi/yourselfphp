@@ -83,7 +83,7 @@ FROM
 	入退出	
 GROUP BY 事由区分
 
-
+select 社員名,count(*) AS 入室回数 FROM 管理 group BY 社員名 HAVING kaisuu >10
 
 
 
