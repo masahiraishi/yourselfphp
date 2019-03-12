@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd9ac438-c0c6-47ec-a107-598079f8f4b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/4/dokoql7.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5/array_search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4/dokoqlc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/dokoql6.php" beforeDir="false" afterPath="$PROJECT_DIR$/4/dokoql6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/dokoqla.php" beforeDir="false" afterPath="$PROJECT_DIR$/4/dokoqla.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4/dokoqlb.php" beforeDir="false" afterPath="$PROJECT_DIR$/4/dokoqlb.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,11 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5/array_search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4/dokoqlc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -107,6 +112,7 @@
         <option value="$PROJECT_DIR$/4/dokoqla.php" />
         <option value="$PROJECT_DIR$/4/dokoql7.php" />
         <option value="$PROJECT_DIR$/5/array_search.php" />
+        <option value="$PROJECT_DIR$/4/dokoqlc.php" />
       </list>
     </option>
   </component>
@@ -131,6 +137,16 @@
             <path>
               <item name="yourselfphp" type="b2602c69:ProjectViewProjectNode" />
               <item name="yourselfphp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yourselfphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yourselfphp" type="462c0819:PsiDirectoryNode" />
+              <item name="4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yourselfphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yourselfphp" type="462c0819:PsiDirectoryNode" />
+              <item name="5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,7 +187,7 @@
       <workItem from="1550970620966" duration="14847000" />
       <workItem from="1551395683089" duration="2901000" />
       <workItem from="1551508882421" duration="207000" />
-      <workItem from="1551509110295" duration="35457000" />
+      <workItem from="1551509110295" duration="41030000" />
     </task>
     <task id="LOCAL-00001" summary="sql">
       <created>1551588825139</created>
@@ -187,11 +203,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551618576896</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sql">
+      <created>1552196569275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552196569276</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53412000" />
+    <option name="totallyTimeSpent" value="58985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="314" y="-1057" width="1405" height="877" extended-state="0" />
@@ -202,7 +225,7 @@
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3299363" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -363,8 +386,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5/array_search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4/dokoqlc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
