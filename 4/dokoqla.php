@@ -38,5 +38,26 @@ select max(kousinnbi),min(kousinnbi) from kouza;
 
 select sum(zanndaka),max(zanndaka),min(zanndaka),avg(zanndaka),count(*) from kouza group by syubetu
 
+CREATE TABLE kakeibo(
+hiduke DATE  NOT NULL
+himokuid INTEGER,
+memo VARCHAR(100) DEFAULT 'humei' NOT NULL,
+);
+
+CREATE TABLE gakubu (
+ID CHAR(1) PRIMARY ,
+name VARCHAR(20) NOT NULL UNIQUE,
+bikou varchar(100) DEFAULT 'nasi' NOT NULL
+)
+
+CREATE table gakusei(
+banngou CHAR(8) PRIMAARY,
+name VARCHAR(30) NOT NULL,
+SEINENN DATE NOT NULL,
+KETUKEKI CHAR(2) DEFAULT NULL,
+gaubu CHAR(1) REFERENCES gakusei(ID)
+
+UPDATE gakusei SET (gakubuid = 'K') WHERE gakubu ='R';
+DELETE FROM gakubu WHERE gakubuid = 'R' 
 
 EOF;
