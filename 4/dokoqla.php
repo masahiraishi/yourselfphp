@@ -60,4 +60,41 @@ gaubu CHAR(1) REFERENCES gakusei(ID)
 UPDATE gakusei SET (gakubuid = 'K') WHERE gakubu ='R';
 DELETE FROM gakubu WHERE gakubuid = 'R' 
 
+49
+SELECT MAX(zandaka),sum(zandaka),min(zandaka),AVG(zandaka),count(id) FROM kouza
+
+SELECT count(*) from zandaka WHERE zandaka >= 100mann and kousinnbi = 2017 and syubetu <> '普通'
+
+SELECT COUNT(*) from kouza where kousinnbi IS NOT NULL;
+
+select max(zandaka),min(zandaka),avg(zandaka),heikin(zandaka) from kouza group by syubetu
+
+SELECT substring(bangou,7,1),count(*) from kouza group by sustring(banngou,7,1) ORDER BY count(*);
+
+SELECT sum(zandaka),max(zandaka),min(zandaka),avg(zandaka)count(*) from kouza group gy substring concat((kousinnbi,1,4),'年') AS 年;
+
+SELECT count(*) ,sum(zandaka) from kouza group by syubetu having sum(zandaka) <=300;
+59
+
+update SET kouza value()
+
+select sum() as goukei ,zandaka from (select sum() from )
+
+select bangou,meigi,zandaka from kouza where bangou IN (select nyuukinn from torihiki where nyuukin >=100)
+
+SELECT (select max(nyukin) from torihiki WHERE nyuukinn) , from torihiki WHERE 
+
+
 EOF;
+
+
+
+
+
+
+
+
+
+
+
+

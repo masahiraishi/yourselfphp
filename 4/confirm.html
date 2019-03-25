@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Introduction to JavaScript</title>
+    <script>
+        function confirmFunction1() {
+            var txt;
+//確認ダイアログの表示
+            var rt = confirm("外部のページを開きますか？");
+            if (rt == true) {
+                txt = "「OK」を選択しました。";
+            } else {
+                txt = "「キャンセル」を選択しました。";
+            }
+//ブラウザーに表示するテキストを代入する
+            document.getElementById("conf1").innerHTML = txt;
+        }
+    </script>
+</head>
+<body>
+<h1>JavaScript のconfirmメソッド</h1>
+<p><button onclick="confirmFunction1()">ボタンを押して下さい</button></p>
+<p id ="conf1"></p>
+</body>
+</html>

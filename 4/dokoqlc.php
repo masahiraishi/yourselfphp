@@ -41,7 +41,10 @@ select CASE code
 	WHERE
 	
 	UPDATE party SET VALUES (mp=(SELECT sum(mp) FROM party WHERE id <>20)*0.1+(select mp from party where id =20))
+	SELECT bangou,kekka FROM keiken WHERE ivent IN (SELECT ivent FROM ivent WHERE type IN(1,3))
 	
-
+	SELECT maxmp,namae FROM (SELECT MAX(mp) AS maxmp,name AS namae FROM party);
+	
+	SELECT bangou,meisyou FROM ivent WHERE bangou IN (SELECT bangou FROM iventkeikenn WHERE kekka IS NOT NULL)
 EOF;
 
