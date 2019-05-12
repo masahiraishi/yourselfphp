@@ -1,5 +1,5 @@
 <?php
-//echo "hello world\n";
+echo "hello world\n";
 //echo "H's \"GREATE\" teacher";
 
 

@@ -41,4 +41,12 @@ SELECT kodo,syouhinmei,tanka,(select sum(suuryou) from syouhinn group by kodo ha
 UPDATE syouhinn SET kodo =(SELECT kodo from syouhinn WHERE hi ='2018-03-15' AND bangou = 201803150014 AND edaban = 1) WHERE kubun ='2' AND mei = bu-tu like '%ブーツ%' OR
 
 select kodo,hiduke from syouhin WHERE kodo in (SELECT kodo FROM syouhinn WHERE syouhinnmei LIKE '%あったか%')
+
+SELECT SUM(suuryou),AVG(qupon) from tyoumon WHERE IN (SELECT bangou FROM tyumon WHERE kodo= W0746 AND qupon IS NOT NULL)
+
+SELECT bangou,edaban,kodo,syouhinnmei,suryou from tyoumon inner join syouhin ON kodo=kodo WHERE bangou = 201801130115;
+
+SELECT hi,bangou,edaban,suuryou,kingaku from tyumon INNER JOIN haiban ON kodo = kodo WHERE haibanbi < tyoumonbi
+
+
 eof;
